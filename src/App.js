@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import ExpenseItem from './ExpenseItem';
 import Expenses from './components/Expenses/Expenses';
 import './App.css';
 
@@ -38,62 +37,6 @@ const App = () => {
       date: new Date(2023, 3, 23)
     },
   ];
-
-  //1st way
-  //return (
-
-  //        <div>
-  //       <h2>Let's get started!</h2>
-  //       <ExpenseItem
-  //         title={expenses[0].title}
-  //         amount={expenses[0].amount}
-  //         date={expenses[0].date}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //         title={expenses[1].title}
-  //         amount={expenses[1].amount}
-  //         date={expenses[1].date}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //         title={expenses[2].title}
-  //         amount={expenses[2].amount}
-  //         date={expenses[2].date}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //         title={expenses[3].title}
-  //         amount={expenses[3].amount}
-  //         date={expenses[3].date}
-  //       ></ExpenseItem>
-  //     </div>
-  //   );
-  //   </div> 
-  //       );
-  // }
-  // export default App;
-
-  //2nd way
-  //return (
-
-  //        <div>
-  //       <h2>Let's get started!</h2>
-  //       <ExpenseItem
-  //         expense={expenses[0]}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //         expense={expenses[1]}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //        expense={expenses[2]}
-  //       ></ExpenseItem>
-  //       <ExpenseItem
-  //         expense={expenses[3]}
-  //       ></ExpenseItem>
-  //     </div>
-  //   );
-  //   </div> 
-  //       );
-  // }
-  // export default App;
 
   return (
 
